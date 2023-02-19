@@ -1,0 +1,276 @@
+.home-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #fdf9ff;
+  margin: 10px;
+}
+
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+}
+.fresh {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(139, 139, 218);
+}
+.para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #262524;
+  opacity: 0.8;
+}
+
+.home-img {
+  height: 450px;
+  margin-top: 90px;
+  margin-left: 12rem;
+  margin-right: 4rem;
+  background-image: url("../Assets/gym.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-position-x: 28vh;
+}
+
+.home-card1 {
+  width: 177px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-right: 140px;
+}
+
+.home-card2 {
+  width: 147px;
+  height: 157px;
+  left: 1173px;
+  top: 559px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+}
+
+.healthy {
+  width: 558px;
+  height: 146px;
+  left: 104px;
+  top: 879px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 73px;
+  color: #262524;
+}
+.healty-para {
+  height: 112px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #262524;
+  opacity: 0.5;
+  margin-right: 60px;
+}
+
+.exercise-days {
+  width: 1150px;
+  height: 250px;
+  margin-left: 100px;
+  background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+  border-radius: 30px;
+  display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  .home-container {
+    margin-top: 70px;
+    width: 400px;
+  }
+  .home-text {
+    width: 600px;
+  }
+  .text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: auto !important;
+  }
+  .fresh {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: rgb(139, 139, 218);
+  }
+  .para {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.8;
+    justify-content: left;
+    margin-right: 10rem;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  .home-img {
+    height: 750px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-image: url("../Assets/gym.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-position-x: 1vh;
+    background-position-y: 15vh;
+    width: 434px;
+  }
+  .home-card1 {
+    margin-left: 0;
+    margin-top: 80px;
+  }
+  .home-card2 {
+    margin-top: 350px;
+    margin-left: 280px;
+  }
+  .healty-para {
+    margin-right: 10px;
+  }
+  .healty-conatiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .exercise-days {
+    width: 450px;
+    height: 650px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 100px;
+    background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.full-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.workout {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 100px;
+  color: #262524;
+  margin-left: 20px;
+}
+.important {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #262524;
+  opacity: 0.5;
+  margin: 20px;
+  margin-right: 150px;
+}
+.body-img {
+  background-image: url("../Assets/body.png");
+  background-position: center;
+  background-size: cover;
+  width: 416px;
+  height: 496px;
+  left: 179px;
+  top: 1539px;
+  margin-left: 100px;
+}
+.kall {
+  width: 203px;
+  height: 80px;
+  left: 100px;
+  top: 1917px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+  display: flex;
+  margin-top: 400px;
+}
+.kalllogo {
+  margin-top: 15px;
+  margin-left: 6px;
+  width: 60px;
+  height: 60px;
+}
+.fat {
+  margin-left: 6px;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+.fatp {
+  color: #262524;
+  opacity: 0.5;
+}
+.best-body {
+  margin-left: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .full-body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .best-body {
+    margin-left: 12px;
+  }
+  .important {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.5;
+    margin: 20px;
+  }
+
+  .body-img {
+    background-image: url("../Assets/body.png");
+    background-position: center;
+    background-size: cover;
+    width: 416px;
+    height: 496px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
